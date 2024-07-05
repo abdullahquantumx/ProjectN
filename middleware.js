@@ -13,7 +13,8 @@ export const config = {
   matcher: [
     '/',           // Protect the home page
     '/about',      // Protect the about page
-    '/tell',       // Protect the tell page
+    '/services',       // Protect the tell page
+    '/records',       // Protect the tell page
     '/api/:path*', // Protect API routes
   ],
 };
